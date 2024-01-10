@@ -1,9 +1,6 @@
-# Codebase for IJCAI 
+# Datasets
+We use 4 datasets in our study -- of which two are public and two are not. For two public datasets, we provide links from which you can download.
+1. EBM, which you can obtain from [here](https://sourceforge.net/projects/ebmsumcorpus/).
+2. MeQSum, which you can obtain from [here](https://github.com/abachaa/MeQSum).
 
-[BertSumAbs_Modified_Scripts](./BertSumAbs_Modified_Scripts/) contains the modified src folder w.r.t original [PreSumm](https://github.com/nlpyang/PreSumm) codebase.
-
-[Transformers_Modified_Script](./Transformers_Modified_Script/) contains the modified version of [run_summarization.py](https://github.com/huggingface/transformers/blob/main/examples/pytorch/summarization/run_summarization.py) of the official huggingface codebase.
-
-[GenerateSubwords](./GenerateSubwords/) contains the code for identifying words being split into four and more subwords, along with words thresholded on UMLS matching threshold for splits two and three.
-
-[Vocabulary_Adaptation](./Vocabulary_Adaptation/) contains the code for generating the final ```DRIFT``` vocabulary that we add to the models.
+For BioASQ and CHQSumm you need to register for the datasets to get the access.
